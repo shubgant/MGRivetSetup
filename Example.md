@@ -26,9 +26,9 @@ Additional Comments: README.md file talks about how to install the programs and 
 19. Type 4 (z -> l+ l-)
 20. cd ../ (Leave MG5_aMC_pol directory) 
 21. cd lhef2hepmc directory
-22. export LD_LIBRARY_PATH=$HOME/bsmxsec3/hepmc/HepMC_install/lib:$LD_LIBRARY_PATH
+22. export LD_LIBRARY_PATH="Directory"/hepmc/HepMC_install/lib:$LD_LIBRARY_PATH
 23. ./lhef2hepmc /<directory>/dec-ZTZT.lhe fifo.hepmc &
-24. Type source ${ATLAS_LOCAL_ROOT_BASE}/user/atlasLocalSetup.sh
+24. Type source ${ATLAS_LOCAL_ROOT_BASE}/user/atlasLocalSetup.sh (or 3 commands from III.4 in ReadMe.md)
 25. asetup 21.6.6,AthGeneration
 26  source setupRivet.sh
 21. Go to Rivet Directory
