@@ -60,12 +60,10 @@ export PYTHONPATH
 2) Type 'generate p p > Z{L} Z{L} j j QCD=0' , {L} is for Longitudinal and {T} is for Transverse
 3) To save process in an output file, type 'output foldername', replace foldername with desired output folder name
 4) cd foldername
-5) If you want to create multiple runs, then
+5) If you want to create just a single run, then proceed to 6. If you want to create multiple runs, then
    - `./bin/madevent`
    - Type `multi_run 5` (5 is an arbitrary number)
    - Proceed to 7.
-   If you want to create just a single run, then proceed to 6.
-
 6) ./bin/generate_events
 7) Five (1-5) switches containing which programs are run and you could choose which one to activate, e.g shower=Pythia8, activates the shower/hadronization program
 8) When finished choosing the programs to run in 7., Type done
@@ -90,7 +88,7 @@ Done!
 
 #### Part 1: Converting .lhe to .hepmc file
 
-*Installing HepMC*
+**Installing HepMC**
 
 1) Download source code from http://lcgapp.cern.ch/project/simu/HepMC/download/
 2) Create a directory called 'hepmc' in your home directory and save the above tar ball here (type `cd; mkdir hepmc`)
