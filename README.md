@@ -163,4 +163,6 @@ if hg command not found, instructions for installing hg (if working proceed to s
 11) `rivet -a ATLAS_2019_I00001 --pwd fifo.hepmc` (The output file is a Rivet.yoda file)
 12) `rivet-mkhtml --mc-errs -o Test Rivet.yoda`
 
+If all setup was successful, look at Example.md to run a trial generation/analysis process.
+
 
