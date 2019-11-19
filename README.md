@@ -64,7 +64,7 @@ export PYTHONPATH
    - `./bin/madevent`
    - Type `multi_run 5` (5 is an arbitrary number)
    - Proceed to 7.
-6) ./bin/generate_events
+6) `./bin/generate_events`
 7) Five (1-5) switches containing which programs are run and you could choose which one to activate, e.g shower=Pythia8, activates the shower/hadronization program
 8) When finished choosing the programs to run in 7., Type done
 9) Prompts you to choose if you want to edit a Card (contains information about your process, the masses of particles, cuts, no. of events) e.g Type 2, and edit Events = 10000 to Events = 15000
