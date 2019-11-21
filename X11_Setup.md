@@ -12,8 +12,8 @@
   - Options (left side) > Connection > SSH > Tunnels > Add new forwarded port
     - Source port: 8888 (or any high 4 digit number should work)
     - Destination: 128.40.4.178:22 (the IP address to the left of the colon is of pc195, can be set to another PC by connecting to the PC manually and typing `hostname -i` to check its IP)
-3) Save configuration with an indicative name
-4) Open this connection with above settings and log in
+3) Save configuration with an indicative name.
+4) Open this connection with above settings and log in.
 5) Open another instance of PuTTY and save the following configuration:
   - Hostname: USERNAME@127.0.0.1 (localhost IP address)
   - Port: 8888 (or whatever was specified above)
