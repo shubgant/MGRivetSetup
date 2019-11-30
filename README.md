@@ -47,10 +47,11 @@ export PYTHONPATH
 
 ### II.II Configuring the DECAY Package
 
-1) `cd MadGraph5_v1_5_14/DECAY`
-2) Replace the original decay_couplings.f and decay.f files by the ones attached in the repository (use git or winscp)
-3) `make` (compile the decay code). This step creates an executable called "decay"
-4) `./decay` or `alias mad_decay='"Directory"/MadGraph5_v1_5_14/DECAY/decay'` in bashrc
+1) `cd` (if not already in home directory)
+2) `cd MadGraph5_v1_5_14/DECAY`
+3) Replace the original decay_couplings.f and decay.f files by the ones attached in the repository (use git or winscp)
+4) `make` (compile the decay code). This step creates an executable called "decay"
+5) `./decay` or `alias mad_decay='"Directory"/MadGraph5_v1_5_14/DECAY/decay'` in bashrc
 
 ### III. RECIPE FOR GENERATING POLARIZED PARTICLES
 
