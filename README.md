@@ -143,7 +143,7 @@ if hg command not found, instructions for installing hg (if working proceed to s
 ---- 
 
 4) `cd ../lhef2hepmc/`
-5) Type `make HEPMC_PREFIX=/home/hepmc/`
+5) Type `make HEPMC_PREFIX=/home/hepmc/HepMC_install`
 6) This should create an executable called "lhef2hepmc"
 
 #### Part 3: Using the lhef to hepmc converter
