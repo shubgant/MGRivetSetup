@@ -149,7 +149,7 @@ if hg command not found, instructions for installing hg (if working proceed to s
 #### Part 3: Using the lhef to hepmc converter
 
 1) In the lhef2hepmc directory, Type mkfifo fifo.hepmc
-2) Type `export LD_LIBRARY_PATH=$HOME/bsmxsec3/hepmc/HepMC_install/lib:$LD_LIBRARY_PATH`
+2) Type `export LD_LIBRARY_PATH="Directory"/hepmc/HepMC_install/lib:$LD_LIBRARY_PATH`
 3) Type `./lhef2hepmc ttbar.lhe fifo.hepmc &` (include the ampersand at the end)
 4) Type the following (or add to an alias in bashrc to run quicker in future):
    - `export ATLAS_LOCAL_ROOT_BASE=/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase`
